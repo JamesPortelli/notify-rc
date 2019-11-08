@@ -33,12 +33,11 @@
     "typecheck": "tsc -p tsconfig.all.json",
     "validate": "npm run typecheck && npm run eslint && npm run prettier -- --list-different",
     "build": "tsc",
+    "build:storybook": "build-storybook -c .storybook -o public",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --no-cache --watch",
-    "start": "start-storybook",
-    "build-storybook": "build-storybook",
-    "build-static-storybook": "build-storybook -c .storybook -o public"
+    "start": "start-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
