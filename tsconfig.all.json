@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "files": ["src/index.ts", "stories/index.ts"],
+  "include": ["src/**/*"]
+}

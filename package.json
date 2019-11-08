@@ -1,0 +1,80 @@
+{
+  "name": "notify-rc",
+  "version": "1.0.0",
+  "author": "James Portelli",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesPortelli/notify-rc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamesPortelli/notify-rc/issues"
+  },
+  "homepage": "https://github.com/JamesPortelli/notify-rc",
+  "keywords": [
+    "notification",
+    "notify",
+    "banner",
+    "toastr"
+  ],
+  "description": "A simple library for displaying notifications to a user.",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "eslint": "eslint --ext js,jsx,ts,tsx --max-warnings 0 -f codeframe --cache --color src stories",
+    "eslint:fix": "npm run eslint -- --fix",
+    "prettier": "prettier **/*.{ts,tsx,js,css,less,json}",
+    "format": "npm run prettier -- --write",
+    "typecheck": "tsc -p tsconfig.all.json",
+    "validate": "npm run typecheck && npm run eslint && npm run prettier -- --list-different",
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --no-cache --watch",
+    "start": "start-storybook",
+    "build-storybook": "build-storybook",
+    "build-static-storybook": "build-storybook -c .storybook -o public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/runtime": "^7.7.2",
+    "@storybook/react": "^5.2.5",
+    "@storybook/theming": "^5.2.5",
+    "@testing-library/jest-dom": "^4.2.3",
+    "@testing-library/react": "^9.3.2",
+    "@types/jest": "^24.0.22",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/storybook__react": "^4.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.4.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "eslint-plugin-sonarjs": "^0.4.0",
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.3",
+    "prettier": "^1.18.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.6"
+  }
+}
