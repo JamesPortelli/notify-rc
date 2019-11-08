@@ -10,7 +10,7 @@ script:
   - npm run validate
   - npm run build
   - npm run test
-  - npm run build-storybook
+  - npm run build:storybook
 after_script: npx codecov@3
 branches:
   only: master
