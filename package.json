@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "author": "James Portelli",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JamesPortelli/notify-rc.git"
