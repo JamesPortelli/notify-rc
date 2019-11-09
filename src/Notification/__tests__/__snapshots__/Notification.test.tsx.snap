@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Tests Kind when kind is error will render error styled Notification 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #e41123;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.c0:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  float: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+  float: left;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="2"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Kind when kind is info will render info styled Notification 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #bbe0fd;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.c0:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  float: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+  float: left;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="3"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Kind when kind is success will render success styled Notification 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.c0:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  float: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+  float: left;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Kind when kind is warning will render warning styled Notification 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #ffb41e;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.c0:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  float: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+  float: left;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="1"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Position when position is Bottom will render the notification in the Bottom position 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.c0:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  float: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+  float: left;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Position when position is BottomLeft will render the notification in the BottomLeft position 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  bottom: 10px;
+  left: 10px;
+  width: 300px;
+  height: 130px;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  text-align: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Position when position is BottomRight will render the notification in the BottomRight position 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  bottom: 10px;
+  right: 10px;
+  width: 300px;
+  height: 130px;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  text-align: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Position when position is Centre will render the notification in the Centre position 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 130px;
+  margin-left: -160px;
+  margin-top: -75px;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  text-align: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Position when position is Top will render the notification in the Top position 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.c0:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  float: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+  float: left;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Position when position is TopLeft will render the notification in the TopLeft position 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  top: 10px;
+  left: 10px;
+  width: 300px;
+  height: 130px;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  text-align: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification Tests Position when position is TopRight will render the notification in the TopRight position 1`] = `
+.c0 {
+  position: fixed;
+  color: white;
+  background-color: #2e855f;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  height: 130px;
+}
+
+.c1 {
+  margin: 10px;
+  line-height: 0;
+  text-align: right;
+}
+
+.c1 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  margin: 10px;
+}
+
+<div>
+  <div
+    class="c0"
+    kind="0"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        data-testid="close-button"
+        height="18"
+        width="18"
+      >
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="13"
+          y2="5"
+        />
+        <line
+          stroke="white"
+          stroke-width="2"
+          x1="5"
+          x2="13"
+          y1="5"
+          y2="13"
+        />
+      </svg>
+    </div>
+    <div
+      class="c2"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;

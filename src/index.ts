@@ -1,1 +1,2 @@
-export * from './components';
+export { NotifierProvider } from './NotifierProvider';
+export * from './useNotifier';

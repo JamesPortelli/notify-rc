@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CloseButton Tests when position is TOP or Bottom will render a CloseButton floated to the right 1`] = `
+.c0 {
+  margin: 10px;
+  line-height: 0;
+  float: right;
+}
+
+.c0 > svg {
+  cursor: pointer;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <svg
+      data-testid="close-button"
+      height="18"
+      width="18"
+    >
+      <line
+        stroke="white"
+        stroke-width="2"
+        x1="5"
+        x2="13"
+        y1="13"
+        y2="5"
+      />
+      <line
+        stroke="white"
+        stroke-width="2"
+        x1="5"
+        x2="13"
+        y1="5"
+        y2="13"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`CloseButton Tests when position is not TOP or Bottom will render a CloseButton aligned to the right 1`] = `
+.c0 {
+  margin: 10px;
+  line-height: 0;
+  text-align: right;
+}
+
+.c0 > svg {
+  cursor: pointer;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <svg
+      data-testid="close-button"
+      height="18"
+      width="18"
+    >
+      <line
+        stroke="white"
+        stroke-width="2"
+        x1="5"
+        x2="13"
+        y1="13"
+        y2="5"
+      />
+      <line
+        stroke="white"
+        stroke-width="2"
+        x1="5"
+        x2="13"
+        y1="5"
+        y2="13"
+      />
+    </svg>
+  </div>
+</div>
+`;
