@@ -20,8 +20,9 @@ after_script: npx codecov@3
 before-deploy: script: echo "Deploying to npm ..."
 deploy:
   provider: npm
-  email: $NPM_EMAIL
-  api_key: $NPM_API_KEY
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_API_KEY"
+  skip_cleanup: true
   on:
     branch: master
 
