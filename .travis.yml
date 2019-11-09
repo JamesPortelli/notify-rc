@@ -16,7 +16,10 @@ script:
   - npm run build:storybook
 
 after_script: npx codecov@3
-
+branches:
+  only:
+  - /.*/
+  
 before-deploy: script: echo "Deploying to npm ..."
 deploy:
   provider: npm
