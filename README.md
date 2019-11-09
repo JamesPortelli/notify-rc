@@ -1,13 +1,6 @@
 # notify-rc
 
-NPM (shields.io)
-[![npm version](http://img.shields.io/npm/v/notify-rc.svg?style=flat)](https://npmjs.org/package/notify-rc 'View this project on npm')
-
-[![Build Status](https://travis-ci.com/JamesPortelli/notify-rc.svg?branch=master)](https://travis-ci.com/JamesPortelli/notify-rc)
-
-[![codecov](https://codecov.io/gh/JamesPortelli/notify-rc/branch/master/graph/badge.svg)](https://codecov.io/gh/JamesPortelli/notify-rc)
-
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/JamesPortelli/notify-rc/blob/master/LICENSE)
+[![npm version](http://img.shields.io/npm/v/notify-rc.svg?style=flat)](https://npmjs.org/package/notify-rc 'View this project on npm') [![Build Status](https://travis-ci.com/JamesPortelli/notify-rc.svg?branch=master)](https://travis-ci.com/JamesPortelli/notify-rc) [![codecov](https://codecov.io/gh/JamesPortelli/notify-rc/branch/master/graph/badge.svg)](https://codecov.io/gh/JamesPortelli/notify-rc) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/JamesPortelli/notify-rc/blob/master/LICENSE)
 
 notify-rc is a small package which allows developers to easily display notifications to the users.
 
