@@ -1,6 +1,14 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { addDecorator, storiesOf } from '@storybook/react';
 
-import { Greeting } from '../../src';
+import { Banner } from './Banner';
+import { Toastr } from './Toastr';
+import { NotifierProvider } from '../../src';
 
-storiesOf('Notifier', module).add('Standard', () => <Greeting />);
+addDecorator(render => {
+  return React.createElement(NotifierProvider, null, render());
+});
+
+storiesOf('Notifier', module)
+  .add('Banner', () => <Banner />)
+  .add('Toastrs', () => <Toastr />);
