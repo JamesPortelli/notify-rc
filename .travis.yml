@@ -17,12 +17,21 @@ script:
 
 after_script: npx codecov@3
 
-before-deploy: script: echo "Deploying to npm ..."
 deploy:
-  provider: npm
-  email: $NPM_EMAIL
-  api_key: $NPM_API_KEY
-  on:
-    branch: master
+  - provider: npm
+    email: '$NPM_EMAIL'
+    api_key: '$NPM_API_KEY'
+    skip_cleanup: true
+    on:
+      branch: master
+  - provider: pages
+    local_dir: 'public'
+    skip_cleanup: true
+    github_token: '$GITHUB_TOKEN'
+    keep_history: true
+    on:
+      branch: master
 
-
+branches:
+  only:
+    - master
