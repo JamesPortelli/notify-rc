@@ -2,15 +2,27 @@ sudo: false
 language: node_js
 node_js:
   - 'stable'
+
 cache:
   directories:
     - node_modules
+
 install: npm install
+
 script:
   - npm run validate
   - npm run build
   - npm run test
   - npm run build:storybook
+
 after_script: npx codecov@3
-branches:
-  only: master
+
+before-deploy: script: echo "Deploying to npm ..."
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_API_KEY
+  on:
+    branch: master
+
+
