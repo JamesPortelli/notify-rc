@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useCallback } from 'react';
 
 import { NotifierContext, NotificationDetails } from './NotifierProvider';
 import { Kind } from './Notification/enums';
@@ -12,21 +12,33 @@ export function useNotifier() {
     throw new Error('useNotifier must be used within a NotifierProvider');
   }
 
-  function showSuccessNotification(message: React.ReactChild, options?: NotificationOptions) {
-    setNotification!({ ...options, kind: Kind.Success, message });
-  }
+  const showSuccessNotification = useCallback(
+    (message: React.ReactChild, options?: NotificationOptions) => {
+      setNotification!({ ...options, kind: Kind.Success, message });
+    },
+    [setNotification]
+  );
 
-  function showInfoNotification(message: React.ReactChild, options?: NotificationOptions) {
-    setNotification!({ ...options, kind: Kind.Info, message });
-  }
+  const showInfoNotification = useCallback(
+    (message: React.ReactChild, options?: NotificationOptions) => {
+      setNotification!({ ...options, kind: Kind.Info, message });
+    },
+    [setNotification]
+  );
 
-  function showWarningNotification(message: React.ReactChild, options?: NotificationOptions) {
-    setNotification!({ ...options, kind: Kind.Warning, message });
-  }
+  const showWarningNotification = useCallback(
+    (message: React.ReactChild, options?: NotificationOptions) => {
+      setNotification!({ ...options, kind: Kind.Warning, message });
+    },
+    [setNotification]
+  );
 
-  function showErrorNotification(message: React.ReactChild, options?: NotificationOptions) {
-    setNotification!({ ...options, kind: Kind.Error, message });
-  }
+  const showErrorNotification = useCallback(
+    (message: React.ReactChild, options?: NotificationOptions) => {
+      setNotification!({ ...options, kind: Kind.Error, message });
+    },
+    [setNotification]
+  );
 
   return {
     showSuccessNotification,
